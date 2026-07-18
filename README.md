@@ -24,6 +24,10 @@ I wanted to use ffmpeg but it's parameters are too complicated.
 - Interactive, auto-yes, or auto-skip handling for existing output files
 - Graceful shutdown on Ctrl-C (in-flight conversions finish or cancel cleanly)
 
+## Note
+
+On Windows the converted files may look wrong in color. Use chromium-based browser to compare instead of windows-builtin photo viewer which is buggy.
+
 ## Requirements
 
 Two external tools must be installed and on your `PATH`:
