@@ -30,10 +30,10 @@ On Windows the converted files may look wrong in color. Use chromium-based brows
 
 ## Requirements
 
-Two external tools must be installed and on your `PATH`:
+Two external tools should be installed and on your `PATH`:
 
 - [`avifenc`](https://github.com/AOMediaCodec/libavif) (from libavif) — does the actual image conversion
-- [`exiftool`](https://exiftool.org/) — copies metadata from the original file to the AVIF
+- [`exiftool`](https://exiftool.org/) (optional)— copies metadata from the original file to the AVIF
 
 Check both are available:
 
